@@ -25,7 +25,7 @@ Point.new = function(self, x, y, z)
    local o = {}
    local rx, ry, rz = getPos()
    setmetatable(o, Point)
-   o.type = "POINT"
+   o.type = "Point"
    o.x = utils.parseCoords(x, rx)
    o.y = utils.parseCoords(y, ry)
    o.z = utils.parseCoords(z, rz)
